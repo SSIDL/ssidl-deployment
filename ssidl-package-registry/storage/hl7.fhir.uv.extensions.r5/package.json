@@ -1,0 +1,73 @@
+{
+	"name": "hl7.fhir.uv.extensions.r5",
+	"versions": {
+		"1.0.0": {
+			"name": "hl7.fhir.uv.extensions.r5",
+			"version": "1.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "3f4ab80091a38a7b5253f1d7c60bf73d8f39c10c",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/1.0.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/1.0.0",
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "hl7.fhir.uv.extensions.r5",
+			"version": "5.1.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "85c34e6967397967b954d4d2cd964390104af7b7",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.1.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.1.0",
+			"contributors": []
+		},
+		"5.2.0": {
+			"name": "hl7.fhir.uv.extensions.r5",
+			"version": "5.2.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "90d77a988dd6a75452961a187783714d02265a90",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.2.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.2.0",
+			"contributors": []
+		}
+	},
+	"time": {},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1754147951056
+		}
+	},
+	"_distfiles": {
+		"1.0.0": {
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/1.0.0",
+			"sha": "3f4ab80091a38a7b5253f1d7c60bf73d8f39c10c"
+		},
+		"5.1.0": {
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.1.0",
+			"sha": "85c34e6967397967b954d4d2cd964390104af7b7"
+		},
+		"5.2.0": {
+			"url": "https://packages.simplifier.net/hl7.fhir.uv.extensions.r5/5.2.0",
+			"sha": "90d77a988dd6a75452961a187783714d02265a90"
+		}
+	},
+	"_attachments": {
+		"5.2.0": {
+			"shasum": "90d77a988dd6a75452961a187783714d02265a90"
+		}
+	},
+	"_rev": "2-a06679c50f1dc892",
+	"_id": "hl7.fhir.uv.extensions.r5",
+	"readme": ""
+}

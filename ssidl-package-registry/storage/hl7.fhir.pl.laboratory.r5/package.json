@@ -1,0 +1,71 @@
+{
+	"name": "hl7.fhir.pl.laboratory.r5",
+	"versions": {
+		"0.1.0": {
+			"name": "hl7.fhir.pl.laboratory.r5",
+			"version": "0.1.0",
+			"tools-version": 3,
+			"type": "IG",
+			"date": "20250728122450",
+			"license": "CC0-1.0",
+			"canonical": "http://hl7.org.pl/fhir/ig/pl-lab",
+			"notForPublication": true,
+			"url": "file:///Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HL7PL.Fhir.Lab/output",
+			"fhirVersions": [
+				"5.0.0"
+			],
+			"dependencies": {
+				"hl7.terminology.r5": "6.5.0",
+				"hl7.fhir.uv.extensions.r5": "5.2.0",
+				"hl7.fhir.eu.extensions": "0.1.0",
+				"hl7.fhir.pl.base.r5": "0.1.0"
+			},
+			"author": {
+				"name": "HL7 Poland"
+			},
+			"maintainers": [
+				{
+					"name": "HL7 Poland",
+					"url": "http://hl7.org.pl"
+				}
+			],
+			"directories": {
+				"lib": "package",
+				"example": "example"
+			},
+			"jurisdiction": "urn:iso:std:iso:3166#PL",
+			"_id": "hl7.fhir.pl.laboratory.r5@0.1.0",
+			"_integrity": "sha512-EuL+rRi+5CGUOfUN0O3qPevl9jnK40K3aR51qHBCb6mXVQFek6QJjnjTrh6a8Xix0seIkDdumkx2RQIPf/NyBg==",
+			"_resolved": "/Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HITInn.SsidlPrototype/ssidl-fhir-server/packages/hl7.fhir.pl.laboratory.r5-0.1.0.tar.gz",
+			"_from": "file:hl7.fhir.pl.laboratory.r5-0.1.0.tar.gz",
+			"_nodeVersion": "22.13.1",
+			"_npmVersion": "11.5.2",
+			"dist": {
+				"integrity": "sha512-EuL+rRi+5CGUOfUN0O3qPevl9jnK40K3aR51qHBCb6mXVQFek6QJjnjTrh6a8Xix0seIkDdumkx2RQIPf/NyBg==",
+				"shasum": "17c747cfde5b6c7d8730ee4eb44ad92e8ce292db",
+				"tarball": "http://localhost:4873/hl7.fhir.pl.laboratory.r5/-/hl7.fhir.pl.laboratory.r5-0.1.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-08-03T11:41:22.158Z",
+		"created": "2025-08-03T11:41:22.158Z",
+		"0.1.0": "2025-08-03T11:41:22.158Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.1.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"hl7.fhir.pl.laboratory.r5-0.1.0.tgz": {
+			"shasum": "17c747cfde5b6c7d8730ee4eb44ad92e8ce292db",
+			"version": "0.1.0"
+		}
+	},
+	"_rev": "3-d294715e2bfa75b8",
+	"_id": "hl7.fhir.pl.laboratory.r5",
+	"readme": "ERROR: No README data found!"
+}

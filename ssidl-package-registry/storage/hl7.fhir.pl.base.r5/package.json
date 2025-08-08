@@ -1,0 +1,68 @@
+{
+	"name": "hl7.fhir.pl.base.r5",
+	"versions": {
+		"0.1.0": {
+			"name": "hl7.fhir.pl.base.r5",
+			"version": "0.1.0",
+			"tools-version": 3,
+			"type": "IG",
+			"date": "20250721133413",
+			"license": "CC0-1.0",
+			"canonical": "http://hl7.org.pl/fhir/ig/pl-base",
+			"notForPublication": true,
+			"url": "file:///Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HL7PL.Fhir.Base/output",
+			"fhirVersions": [
+				"5.0.0"
+			],
+			"dependencies": {
+				"hl7.terminology.r5": "6.5.0",
+				"hl7.fhir.uv.extensions.r5": "5.2.0"
+			},
+			"author": {
+				"name": "HL7 Poland"
+			},
+			"maintainers": [
+				{
+					"name": "HL7 Poland",
+					"url": "http://hl7.org.pl"
+				}
+			],
+			"directories": {
+				"lib": "package",
+				"example": "example"
+			},
+			"_id": "hl7.fhir.pl.base.r5@0.1.0",
+			"_integrity": "sha512-HIxYFEzFxQasg9hn6XrdGfv0bR1AwuxwVqXwykBX5D1YuGzo1C6ts3JjaOiK1UZ+gUTWrnQt41UKrg10ytS/gA==",
+			"_resolved": "/Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HITInn.SsidlPrototype/ssidl-fhir-server/packages/hl7.fhir.pl.base.r5-0.1.0.tar.gz",
+			"_from": "file:hl7.fhir.pl.base.r5-0.1.0.tar.gz",
+			"_nodeVersion": "22.13.1",
+			"_npmVersion": "11.5.2",
+			"dist": {
+				"integrity": "sha512-HIxYFEzFxQasg9hn6XrdGfv0bR1AwuxwVqXwykBX5D1YuGzo1C6ts3JjaOiK1UZ+gUTWrnQt41UKrg10ytS/gA==",
+				"shasum": "2e02e0a2c294591ad526d0718a466d5346cc6626",
+				"tarball": "http://localhost:4873/hl7.fhir.pl.base.r5/-/hl7.fhir.pl.base.r5-0.1.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-08-03T11:40:33.443Z",
+		"created": "2025-08-03T11:40:33.443Z",
+		"0.1.0": "2025-08-03T11:40:33.443Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.1.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"hl7.fhir.pl.base.r5-0.1.0.tgz": {
+			"shasum": "2e02e0a2c294591ad526d0718a466d5346cc6626",
+			"version": "0.1.0"
+		}
+	},
+	"_rev": "3-36bea032504f9a53",
+	"_id": "hl7.fhir.pl.base.r5",
+	"readme": "ERROR: No README data found!"
+}

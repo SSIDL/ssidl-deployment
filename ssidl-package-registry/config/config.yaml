@@ -1,0 +1,33 @@
+# conf/config.yaml
+storage: /verdaccio/storage
+max_body_size: 1000mb
+auth:
+  htpasswd:
+    file: /verdaccio/conf/htpasswd
+    max_users: 100
+
+uplinks:
+  npmjs:
+    url: https://packages.fhir.org
+
+packages:
+  '@*/*':
+    access: $all
+    publish: $authenticated
+    proxy: npmjs
+
+  '**':
+    access: $all
+    publish: $authenticated
+    proxy: npmjs
+
+middlewares:
+  audit:
+    enabled: true
+  compression:
+    enabled: true
+    threshold: 1024
+    level: 6
+
+logs:
+  - {type: stdout, format: pretty, level: http}

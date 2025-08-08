@@ -1,0 +1,325 @@
+{
+	"name": "hl7.terminology.r5",
+	"versions": {
+		"1.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "1.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "0294b758c85ff51b7a75796b75d0b196db869c40",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/1.0.0"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/1.0.0",
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "2.0.0",
+			"description": "None.",
+			"dist": {
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/2.0.0"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/2.0.0",
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "hl7.terminology.r5",
+			"version": "2.1.0",
+			"description": "None.",
+			"dist": {
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/2.1.0"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/2.1.0",
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "3.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "3a027addbf473d4ada85180e62dca0ebe40f0ffd",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/3.0.0"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/3.0.0",
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "4.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "a075d5cc2be12132cd571668bbdac4bae52fa3c2",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/4.0.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/4.0.0",
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "444cbc0e0dc2f3a8bfb2c244830dedd18929814c",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.0.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.0.0",
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.1.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "d3db99e15ea6f7e24d48bc2360913c66b5ed2872",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.1.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.1.0",
+			"contributors": []
+		},
+		"5.2.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.2.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "83b5cba3d8cf12cc5d34c1235be11d7e29760383",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.2.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.2.0",
+			"contributors": []
+		},
+		"5.3.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.3.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "6dba119329face8e46c2b49327fd032cf20fc541",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.3.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.3.0",
+			"contributors": []
+		},
+		"5.4.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.4.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "f0e293d82b3d3dafbc70b01bb01d99279511fd31",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.4.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.4.0",
+			"contributors": []
+		},
+		"5.5.0": {
+			"name": "hl7.terminology.r5",
+			"version": "5.5.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "375a868f8272803f7cfb753a0073615b8d2592fb",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/5.5.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.5.0",
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.0.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "7e393a7f9e5fed0de1110810d30d38c2ff1db650",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.0.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.0",
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "hl7.terminology.r5",
+			"version": "6.0.1",
+			"description": "None.",
+			"dist": {
+				"shasum": "97cf413cc2c65596684db6a6af1e98ec7e8f93a6",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.0.1"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.1",
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "hl7.terminology.r5",
+			"version": "6.0.2",
+			"description": "None.",
+			"dist": {
+				"shasum": "febcee35aefe16e858cf031e938fb442a14daf1a",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.0.2"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.2",
+			"contributors": []
+		},
+		"6.1.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.1.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "3aa918d92989d5908d192bb70d3dba407c1b28c5",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.1.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.1.0",
+			"contributors": []
+		},
+		"6.2.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.2.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "9072ae190a8bf174de11f6beeba9b373e86a16a8",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.2.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.2.0",
+			"contributors": []
+		},
+		"6.3.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.3.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "ca2f373b4e53bbfb50bafdbbe97fbbad96b7cc5c",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.3.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.3.0",
+			"contributors": []
+		},
+		"6.4.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.4.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "307aa4581278bd818354a2ee3d3b260ba3c5b41a",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.4.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.4.0",
+			"contributors": []
+		},
+		"6.5.0": {
+			"name": "hl7.terminology.r5",
+			"version": "6.5.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "1dec5a3c24b892d876c961409741fb8480767fd6",
+				"tarball": "https://packages.simplifier.net/hl7.terminology.r5/6.5.0"
+			},
+			"fhirVersion": "R5",
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.5.0",
+			"contributors": []
+		}
+	},
+	"time": {},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.5.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1754147951048
+		}
+	},
+	"_distfiles": {
+		"1.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/1.0.0",
+			"sha": "0294b758c85ff51b7a75796b75d0b196db869c40"
+		},
+		"2.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/2.0.0"
+		},
+		"2.1.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/2.1.0"
+		},
+		"3.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/3.0.0",
+			"sha": "3a027addbf473d4ada85180e62dca0ebe40f0ffd"
+		},
+		"4.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/4.0.0",
+			"sha": "a075d5cc2be12132cd571668bbdac4bae52fa3c2"
+		},
+		"5.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.0.0",
+			"sha": "444cbc0e0dc2f3a8bfb2c244830dedd18929814c"
+		},
+		"5.1.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.1.0",
+			"sha": "d3db99e15ea6f7e24d48bc2360913c66b5ed2872"
+		},
+		"5.2.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.2.0",
+			"sha": "83b5cba3d8cf12cc5d34c1235be11d7e29760383"
+		},
+		"5.3.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.3.0",
+			"sha": "6dba119329face8e46c2b49327fd032cf20fc541"
+		},
+		"5.4.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.4.0",
+			"sha": "f0e293d82b3d3dafbc70b01bb01d99279511fd31"
+		},
+		"5.5.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/5.5.0",
+			"sha": "375a868f8272803f7cfb753a0073615b8d2592fb"
+		},
+		"6.0.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.0",
+			"sha": "7e393a7f9e5fed0de1110810d30d38c2ff1db650"
+		},
+		"6.0.1": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.1",
+			"sha": "97cf413cc2c65596684db6a6af1e98ec7e8f93a6"
+		},
+		"6.0.2": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.0.2",
+			"sha": "febcee35aefe16e858cf031e938fb442a14daf1a"
+		},
+		"6.1.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.1.0",
+			"sha": "3aa918d92989d5908d192bb70d3dba407c1b28c5"
+		},
+		"6.2.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.2.0",
+			"sha": "9072ae190a8bf174de11f6beeba9b373e86a16a8"
+		},
+		"6.3.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.3.0",
+			"sha": "ca2f373b4e53bbfb50bafdbbe97fbbad96b7cc5c"
+		},
+		"6.4.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.4.0",
+			"sha": "307aa4581278bd818354a2ee3d3b260ba3c5b41a"
+		},
+		"6.5.0": {
+			"url": "https://packages.simplifier.net/hl7.terminology.r5/6.5.0",
+			"sha": "1dec5a3c24b892d876c961409741fb8480767fd6"
+		}
+	},
+	"_attachments": {
+		"6.5.0": {
+			"shasum": "1dec5a3c24b892d876c961409741fb8480767fd6"
+		}
+	},
+	"_rev": "2-dc2203cc6ee0075d",
+	"_id": "hl7.terminology.r5",
+	"readme": ""
+}

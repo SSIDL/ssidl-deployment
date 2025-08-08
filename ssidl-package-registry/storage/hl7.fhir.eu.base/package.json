@@ -1,0 +1,35 @@
+{
+	"name": "hl7.fhir.eu.base",
+	"versions": {
+		"0.1.0-ballot": {
+			"name": "hl7.fhir.eu.base",
+			"version": "0.1.0-ballot",
+			"description": "None.",
+			"dist": {
+				"shasum": "f9164e98ff273bdc6313bc44c7d1c035f3cbab46",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.eu.base/0.1.0-ballot"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.base/0.1.0-ballot",
+			"contributors": []
+		}
+	},
+	"time": {},
+	"users": {},
+	"dist-tags": {},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1754224369231
+		}
+	},
+	"_distfiles": {
+		"0.1.0-ballot": {
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.base/0.1.0-ballot",
+			"sha": "f9164e98ff273bdc6313bc44c7d1c035f3cbab46"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-ecd1f979f33fa093",
+	"_id": "hl7.fhir.eu.base",
+	"readme": ""
+}

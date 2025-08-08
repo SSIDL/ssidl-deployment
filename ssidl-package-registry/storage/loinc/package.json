@@ -1,0 +1,57 @@
+{
+	"name": "loinc",
+	"versions": {
+		"2.80.0": {
+			"name": "loinc",
+			"version": "2.80.0",
+			"tools-version": 3,
+			"type": "TERMINOLOGY_LOINC",
+			"date": "20250721133413",
+			"license": "CC0-1.0",
+			"canonical": "http://loinc.org",
+			"author": {
+				"name": "LOINC"
+			},
+			"maintainers": [
+				{
+					"name": "LOINC",
+					"url": "http://loinc.org"
+				}
+			],
+			"_id": "loinc@2.80.0",
+			"readmeFilename": "README.md",
+			"description": "LOINC User's Guide and Release Notes",
+			"_integrity": "sha512-MX6EMgoKcmCRrZKABokAbio1rEuFv8U5LjkwDAuToj/SdKbt88xUPBZsozPNOhFHbOMSgeQQkANOX1hnOgIK6w==",
+			"_resolved": "/Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HITInn.SsidlPrototype/ssidl-fhir-server/packages/loinc-2.80/loinc-2.80.0.tgz",
+			"_from": "file:loinc-2.80.0.tgz",
+			"_nodeVersion": "22.13.1",
+			"_npmVersion": "11.5.2",
+			"dist": {
+				"integrity": "sha512-MX6EMgoKcmCRrZKABokAbio1rEuFv8U5LjkwDAuToj/SdKbt88xUPBZsozPNOhFHbOMSgeQQkANOX1hnOgIK6w==",
+				"shasum": "a47b2487a8e6aa5e102251608e09ef36df9b4f40",
+				"tarball": "http://localhost:4873/loinc/-/loinc-2.80.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-08-04T00:17:06.784Z",
+		"created": "2025-08-04T00:17:06.784Z",
+		"2.80.0": "2025-08-04T00:17:06.784Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.80.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"loinc-2.80.0.tgz": {
+			"shasum": "a47b2487a8e6aa5e102251608e09ef36df9b4f40",
+			"version": "2.80.0"
+		}
+	},
+	"_rev": "3-7fd480b71d7946c3",
+	"_id": "loinc",
+	"readme": "LOINC User's Guide and Release Notes\r\n\r\nIn order to ensure our users have the most accurate and timely information, PDF copies of LOINC Users’ Guide and LOINC Release Notes are no longer available as separate artifacts. Instead you may find these resource within the LOINC Knowledge Base, including an archive of previous Release Notes.\r\n\r\nPlease visit https://loinc.org/kb"
+}

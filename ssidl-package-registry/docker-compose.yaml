@@ -1,0 +1,18 @@
+
+name: ssidl-package-registry
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:latest
+    container_name: ssidl-verdaccio
+    restart: always
+    ports:
+      - "4873:4873"
+    volumes:
+      - ./storage:/verdaccio/storage
+      - ./config:/verdaccio/conf
+    networks:
+      - ssidl-network
+
+networks:
+  ssidl-network:
+    external: true

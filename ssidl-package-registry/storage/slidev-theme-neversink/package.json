@@ -1,0 +1,1408 @@
+{
+	"name": "slidev-theme-neversink",
+	"versions": {
+		"0.0.0": {
+			"name": "slidev-theme-neversink",
+			"version": "0.0.0",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.0.0",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/gureckis/slidev-theme-neversink#readme",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "2ad621abcb0f8dad2ffa9bdae74e36cd0e25b0dd",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.0.tgz",
+				"fileCount": 147,
+				"integrity": "sha512-anIZDqV0z9gdlexJ4QetBNf+v4+uHDQmWYCvyxRUwFv35sj2HdfaZE4Z7TjK1d4cEmWeK4PBdLJ26k7JeNrxYA==",
+				"signatures": [
+					{
+						"sig": "MEQCIB0Q6Aw5gI+7jGbRx2MKN87tu0fnq6fnz8u1RaYf0EhKAiBZS2zweAAVLCaHdjPM5+piA0HUyQgPTXJ8FhY/ftPrNQ==",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"unpackedSize": 6598052
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.0.0.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/private/var/folders/d5/rj28tgy10wg908rw3bsbmv0c0000gp/T/0b51e049714937e16d7d6497e80cac71/slidev-theme-neversink-0.0.0.tgz",
+			"_integrity": "sha512-anIZDqV0z9gdlexJ4QetBNf+v4+uHDQmWYCvyxRUwFv35sj2HdfaZE4Z7TjK1d4cEmWeK4PBdLJ26k7JeNrxYA==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.2.3",
+			"description": "An education/academia oriented [Slidev](https://sli.dev/) theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "21.2.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"playwright-chromium": "^1.45.0",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.15"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.0.0_1720541697335_0.3638296884546681",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "slidev-theme-neversink",
+			"version": "0.0.1",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.0.1",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/gureckis/slidev-theme-neversink#readme",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "85448ad3eb3089060a496bf1c34540aef1878321",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.1.tgz",
+				"fileCount": 148,
+				"integrity": "sha512-efwu94sSX7cUhe4v8xEujXdc39K9MMeHymfLH7d/KyBwqf4IkxNLw5Y7X/istGXw3jN5oABffGyigNRH8HKjrw==",
+				"signatures": [
+					{
+						"sig": "MEUCIQDj+se12O1bojAAOsHyuuIRbeIKOqGH8GhPyXEk0wZIxwIgPXIDT40jPuxKnv6f8Pszzt/I6QrlV05jzg+r8R1bdJY=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.0.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6596575
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.0.1.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/e6a4cb3393a8ac2a37ff8b65b508c12a/slidev-theme-neversink-0.0.1.tgz",
+			"_integrity": "sha512-efwu94sSX7cUhe4v8xEujXdc39K9MMeHymfLH7d/KyBwqf4IkxNLw5Y7X/istGXw3jN5oABffGyigNRH8HKjrw==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"playwright-chromium": "^1.45.0",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.15"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.0.1_1720546591115_0.06718852146717658",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "slidev-theme-neversink",
+			"version": "0.0.2",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.0.2",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/gureckis/slidev-theme-neversink#readme",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "fb59db306a121038549c54683800d2678fca0aae",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.2.tgz",
+				"fileCount": 148,
+				"integrity": "sha512-0JPmLOICJ/v6ZQAF60DeN1Meo2ZiOAWqY/lqIPzSA8QKVjaKospYp8WuG+qlVh9yMf6tHu3nCvDpxqefrmHxDw==",
+				"signatures": [
+					{
+						"sig": "MEUCIHJHquwcs5k9/7r6A2hVnQyyn96MXdUDSNKBNHqgjEQWAiEAyUl55o7zK4s7cjaQUXhiRy1eFbbMkrESmqrOvr/HYPA=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6596575
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.0.2.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/f17ede6cdf8a5af0920f9cca897d4986/slidev-theme-neversink-0.0.2.tgz",
+			"_integrity": "sha512-0JPmLOICJ/v6ZQAF60DeN1Meo2ZiOAWqY/lqIPzSA8QKVjaKospYp8WuG+qlVh9yMf6tHu3nCvDpxqefrmHxDw==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@slidev/cli": "^0.49.16",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"playwright-chromium": "^1.45.0",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.0.2_1720550354820_0.358673119863244",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "slidev-theme-neversink",
+			"version": "0.0.3",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.0.3",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "569c67eb3f2b3006c6385fdc8f529e8f014c02f9",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.3.tgz",
+				"fileCount": 148,
+				"integrity": "sha512-2xGetyJhMlT1WygnlxdVlyQjo0MJwSWUik1uchtSyC3BECvIb5shXJVsi8uXH8SD7dkBGtvrExRz2ngSYmIDEA==",
+				"signatures": [
+					{
+						"sig": "MEUCICTpmV2jzsf+DSLykTJC/pqMykQq+et5pN2v7twceQvwAiEA7+LL5yvfALIj6jVB65PvYZYo3ppRMehLdA63/xiNY2s=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.0.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6596568
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.0.3.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/a885f717a05d403e6577b73cfaf25857/slidev-theme-neversink-0.0.3.tgz",
+			"_integrity": "sha512-2xGetyJhMlT1WygnlxdVlyQjo0MJwSWUik1uchtSyC3BECvIb5shXJVsi8uXH8SD7dkBGtvrExRz2ngSYmIDEA==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.0.3_1720550920596_0.5290526190289528",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "slidev-theme-neversink",
+			"version": "0.1.0",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.1.0",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "9917ac14ceae08921436e983db7bde9cbd348b13",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.1.0.tgz",
+				"fileCount": 157,
+				"integrity": "sha512-CZ0TcrhbAiVYChDD4J5NcKRF4yAXIRCjVgu+LKg3jaNzF9rG4j7jfxLer2o+ckqILx1n69Dq8UxXjtsQQ8IkjA==",
+				"signatures": [
+					{
+						"sig": "MEUCIC4eVCpdPpx8O2AbKDpYBr/lVpxdahxQTpeXvKZ72T5IAiEAlV9RxlL9ei6jMKH3aufVVgz7KW/lMZvGQSOjhzWuwoY=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.1.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6669280
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.1.0.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/574c2ac2bb42045600af93fadadb5f9b/slidev-theme-neversink-0.1.0.tgz",
+			"_integrity": "sha512-CZ0TcrhbAiVYChDD4J5NcKRF4yAXIRCjVgu+LKg3jaNzF9rG4j7jfxLer2o+ckqILx1n69Dq8UxXjtsQQ8IkjA==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.1.0_1720891244093_0.8134145634045318",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "slidev-theme-neversink",
+			"version": "0.1.1",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.1.1",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "3ee7c3c367705d97c7efd7f9fb1ebac944ea9489",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.1.1.tgz",
+				"fileCount": 157,
+				"integrity": "sha512-5XTSKLN5SBGX/gu38v+9NauT6+tLRnPNhYfOIjZ2auKG++fHTfvNN1YDNBwMWQsTZivPUtEqj+uiqH4GQu8tZg==",
+				"signatures": [
+					{
+						"sig": "MEUCIQDBU57svt4W11pAdDayavoUqGaf6HC0JaSvu9EKJoicLgIgPQ8vk3m7qIJ90MPMGqv4WgTm4eJ/XI0v2luqapHI8rw=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.1.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6671764
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.1.1.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/e4ad60e7ca67e673ebd52e0f4ce9b1bc/slidev-theme-neversink-0.1.1.tgz",
+			"_integrity": "sha512-5XTSKLN5SBGX/gu38v+9NauT6+tLRnPNhYfOIjZ2auKG++fHTfvNN1YDNBwMWQsTZivPUtEqj+uiqH4GQu8tZg==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.0",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.1.1_1721079591125_0.41494393486655357",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "slidev-theme-neversink",
+			"version": "0.2.0",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.2.0",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "a65d49c7f69608ba4825a36d59441c2e32413340",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.2.0.tgz",
+				"fileCount": 157,
+				"integrity": "sha512-HVXClBmU0xoCqAfqkvquFsQus5UYMX6Fm9DHTr+whGZSw5llFg3xFHWMk3uy8BssiWldT7cu9h0tM6eY5X2qBg==",
+				"signatures": [
+					{
+						"sig": "MEQCH0G8SIiy++06RGLrcItllAnr5A0xI8/r3VfX7taQ36sCIQCc0zzLSZZrPK5q5UVKrUksiYPi9vaLOxrkKF4Lowjauw==",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.2.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6671883
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.2.0.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/404e4222094281151c602683a18de43f/slidev-theme-neversink-0.2.0.tgz",
+			"_integrity": "sha512-HVXClBmU0xoCqAfqkvquFsQus5UYMX6Fm9DHTr+whGZSw5llFg3xFHWMk3uy8BssiWldT7cu9h0tM6eY5X2qBg==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.2.0_1721237433080_0.3169231932174188",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.0",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.3.0",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "96bac73f28d41d9717d99ac1aeeaf2ff80d92f75",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.0.tgz",
+				"fileCount": 170,
+				"integrity": "sha512-LGXdaVAWF39s5vX95w3HdTAFDioixTH2xwi9yd3uNQ+w4J3rktncGXCSlyrVbQSclrICLz+o3wzPOwDf0cAtJw==",
+				"signatures": [
+					{
+						"sig": "MEUCIAJva7Tq6iNH/qJeYoBbE9jY9/t55QUC9SrLFp5b8qhHAiEAv4Rvz8DMtRWNVVAxaBWKE2dGw7qyQ2KvnvXJ0e+ty0A=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6718385
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.3.0.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"release": "bumpp package.json",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/6ebc7653c7afba40e1a9411e40a47af1/slidev-theme-neversink-0.3.0.tgz",
+			"_integrity": "sha512-LGXdaVAWF39s5vX95w3HdTAFDioixTH2xwi9yd3uNQ+w4J3rktncGXCSlyrVbQSclrICLz+o3wzPOwDf0cAtJw==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"bumpp": "^9.4.1",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.3.0_1721874837492_0.030642126772143286",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.1",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.3.1",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "5480a6271dd70678df929b5c6721ff2a91c8075a",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.1.tgz",
+				"fileCount": 170,
+				"integrity": "sha512-UFEIISUB4ABYH6xFNwiIlgB5VXiSrEFXKb1gRQk7UtMC1Os5CDejymuh44XprGe1W2vR1jCN8RnqPw297bQk5g==",
+				"signatures": [
+					{
+						"sig": "MEQCICA5drvQWW3rU3M5KzSptLqInEiBpf2zjZp9JZnCXCi+AiAqm8Imh8VE1YQ/LjcbdIQSk1u0rierog5cREp20DzmAg==",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6717925
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.3.1.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"release": "bumpp package.json",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/7ba18fb9eb6cda29e05bdb466e102259/slidev-theme-neversink-0.3.1.tgz",
+			"_integrity": "sha512-UFEIISUB4ABYH6xFNwiIlgB5VXiSrEFXKb1gRQk7UtMC1Os5CDejymuh44XprGe1W2vR1jCN8RnqPw297bQk5g==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"bumpp": "^9.4.1",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.3.1_1721877955738_0.15089820732806092",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.2": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.2",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.3.2",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "5066e781bd778654a1f46b177c12a1376fc3ba73",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.2.tgz",
+				"fileCount": 170,
+				"integrity": "sha512-Ag+3MUlUSfLGESFgKXJ/agWF03fMAkdNgm5iUs1pqf1hL/A2kabkS/7GHOqLQBBgXm/DayWNYkI1W9IMCJOghA==",
+				"signatures": [
+					{
+						"sig": "MEUCIQCCLn+E63ypCI+U2vh173BDAfhQQDijkIWDuNG9Jc2AYQIgET6FTjOxqNi8iCfbW5fymQDCsbKVN53qBA6Bar4qAds=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6717755
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.3.2.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"release": "bumpp package.json",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/a06fc4da7d4e055bd28e8343bf8ed6e4/slidev-theme-neversink-0.3.2.tgz",
+			"_integrity": "sha512-Ag+3MUlUSfLGESFgKXJ/agWF03fMAkdNgm5iUs1pqf1hL/A2kabkS/7GHOqLQBBgXm/DayWNYkI1W9IMCJOghA==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"bumpp": "^9.4.1",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.3.2_1721880501001_0.8833747385471755",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.3": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.3",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.3.3",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "abfef02ef9eaa2a57f24566ab4c0f1fb33335586",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.3.tgz",
+				"fileCount": 170,
+				"integrity": "sha512-6ExjZ0taip934//Ra55gzFNSby9JN5z8nFBbhyj4Il3W/iXLW+htDJxi+HBBcg+pNmQ7RVbW9XIZ2d3k2JuflQ==",
+				"signatures": [
+					{
+						"sig": "MEYCIQD6uxIQKWau4lnC9K9wqvb5++J2Iw8fFAPR7a461I4jmQIhAMxb4ODElGaNg7us47r+u1gdLHgcq8/XXbCP9u8WTpLZ",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6717796
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.3.3.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.16"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"release": "bumpp package.json",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/4a3ce05232f424da23995f58bfb2b617/slidev-theme-neversink-0.3.3.tgz",
+			"_integrity": "sha512-6ExjZ0taip934//Ra55gzFNSby9JN5z8nFBbhyj4Il3W/iXLW+htDJxi+HBBcg+pNmQ7RVbW9XIZ2d3k2JuflQ==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.16",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.4.0",
+				"bumpp": "^9.4.1",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.16",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.3.3_1721880932889_0.20747285279069327",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.4": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.4",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"author": {
+				"name": "gureckis"
+			},
+			"_id": "slidev-theme-neversink@0.3.4",
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"dist": {
+				"shasum": "76210f04c763f03bc9911777c5a749bc8ae3a725",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.4.tgz",
+				"fileCount": 170,
+				"integrity": "sha512-KGZ8uR9HUMieR7NHqL28dRKQzUiqNk0km9GkX3+3B6K2Q4C+w1rf7B9d2cxM9jwEPoQQQin1JK2cRnGLHhznzg==",
+				"signatures": [
+					{
+						"sig": "MEYCIQDDhyXYt+5yWAOunvq4+KHYmG1l8Zyp/dpFr8o/q8S62AIhAImS9iDNT59JTAd5ijOargkl1Vj8Tc77M+JczIygyXCA",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.4",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 6717859
+			},
+			"type": "module",
+			"_from": "file:slidev-theme-neversink-0.3.4.tgz",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.21"
+			},
+			"scripts": {
+				"dev": "slidev example.md",
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"export": "slidev export example.md",
+				"release": "bumpp package.json",
+				"docs:dev": "vitepress dev docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"docs:build": "vitepress build docs",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"docs:preview": "vitepress preview docs",
+				"screenshot:dev": "slidev screenshot.md"
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"_resolved": "/tmp/bd6f1b468cee34a23e827ec3d73acbad/slidev-theme-neversink-0.3.4.tgz",
+			"_integrity": "sha512-KGZ8uR9HUMieR7NHqL28dRKQzUiqNk0km9GkX3+3B6K2Q4C+w1rf7B9d2cxM9jwEPoQQQin1JK2cRnGLHhznzg==",
+			"repository": {
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git",
+				"type": "git"
+			},
+			"_npmVersion": "10.7.0",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {
+				"qrcode.vue": "^3.4.1",
+				"@iconify/vue": "^4.1.2",
+				"@iconify/json": "^2.2.221",
+				"@slidev/types": "^0.49.21",
+				"@mdit/plugin-sub": "^0.12.0",
+				"markdown-it-mark": "^4.0.0",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/twemoji": "^1.1.15"
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"pnpm": "^9.6.0",
+				"bumpp": "^9.4.1",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.21",
+				"playwright-chromium": "^1.45.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/slidev-theme-neversink_0.3.4_1721885773222_0.840913048855457",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.3.6": {
+			"name": "slidev-theme-neversink",
+			"version": "0.3.6",
+			"author": {
+				"name": "gureckis"
+			},
+			"type": "module",
+			"keywords": [
+				"slidev-theme",
+				"slidev"
+			],
+			"engines": {
+				"node": ">=18.0.0",
+				"slidev": ">=0.49.21"
+			},
+			"dependencies": {
+				"@iconify-json/logos": "^1.1.42",
+				"@iconify-json/mdi": "^1.1.66",
+				"@iconify-json/twemoji": "^1.1.15",
+				"@iconify-json/uim": "^1.1.9",
+				"@iconify/json": "^2.2.221",
+				"@iconify/vue": "^4.1.2",
+				"@mdit/plugin-sub": "^0.12.0",
+				"@slidev/types": "^0.49.21",
+				"markdown-it-mark": "^4.0.0",
+				"qrcode.vue": "^3.4.1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gureckis/slidev-theme-neversink.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gureckis/slidev-theme-neversink/issues"
+			},
+			"homepage": "https://gureckis.github.io/slidev-theme-neversink/",
+			"slidev": {
+				"colorSchema": "light",
+				"highlighter": "all"
+			},
+			"devDependencies": {
+				"pnpm": "^9.6.0",
+				"vitepress": "^1.2.3",
+				"@slidev/cli": "^0.49.21",
+				"playwright-chromium": "^1.45.0",
+				"bumpp": "^9.4.1"
+			},
+			"scripts": {
+				"build": "slidev build example.md -o docs/public/example --base /slidev-theme-neversink/example/",
+				"dev": "slidev example.md",
+				"export": "slidev export example.md",
+				"screenshot": "slidev export screenshot.md --format png --output docs/public/screenshots/",
+				"screenshot:dev": "slidev screenshot.md",
+				"docs:dev": "vitepress dev docs",
+				"docs:build": "vitepress build docs",
+				"docs:preview": "vitepress preview docs",
+				"ci:publish": "pnpm publish --access public --no-git-checks",
+				"release": "bumpp package.json"
+			},
+			"_id": "slidev-theme-neversink@0.3.6",
+			"description": "An education/academia oriented Slidev theme with some whimsical elements.",
+			"_integrity": "sha512-x2fD986NYTmrXpR3d6EeST421voUk3GkL6XCn/6Ba2CcozWLNmXhEQPnjWdyngZfPMs7NNLbT2PLvOCrwXNymA==",
+			"_resolved": "/tmp/a4dfe4313820dc547438d78fb06bde45/slidev-theme-neversink-0.3.6.tgz",
+			"_from": "file:slidev-theme-neversink-0.3.6.tgz",
+			"_nodeVersion": "20.17.0",
+			"_npmVersion": "10.8.2",
+			"dist": {
+				"integrity": "sha512-x2fD986NYTmrXpR3d6EeST421voUk3GkL6XCn/6Ba2CcozWLNmXhEQPnjWdyngZfPMs7NNLbT2PLvOCrwXNymA==",
+				"shasum": "91d9913bed3b55f73458761568bb02544c389874",
+				"tarball": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.6.tgz",
+				"fileCount": 170,
+				"unpackedSize": 6720045,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/slidev-theme-neversink@0.3.6",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDuW9NkQ+R8aL+0yvCWYAkZ1sb0M48JIUP8nvh4XFZ2UgIhAI4dw96+8Mc6qNJKMDSl5Cg741+NR/RB6njFeiwQ+IdI"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "gureckis",
+				"email": "gureckis@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gureckis",
+					"email": "gureckis@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/slidev-theme-neversink_0.3.6_1726162944640_0.5091440923224595"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2024-07-09T16:14:57.334Z",
+		"modified": "2024-09-12T17:42:25.399Z",
+		"0.0.0": "2024-07-09T16:14:57.582Z",
+		"0.0.1": "2024-07-09T17:36:31.385Z",
+		"0.0.2": "2024-07-09T18:39:15.125Z",
+		"0.0.3": "2024-07-09T18:48:40.851Z",
+		"0.1.0": "2024-07-13T17:20:44.383Z",
+		"0.1.1": "2024-07-15T21:39:51.394Z",
+		"0.2.0": "2024-07-17T17:30:33.371Z",
+		"0.3.0": "2024-07-25T02:33:57.913Z",
+		"0.3.1": "2024-07-25T03:25:55.966Z",
+		"0.3.2": "2024-07-25T04:08:21.324Z",
+		"0.3.3": "2024-07-25T04:15:33.198Z",
+		"0.3.4": "2024-07-25T05:36:13.577Z",
+		"0.3.6": "2024-09-12T17:42:24.921Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.3.6"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"ec3e12d8beaca0f9570546239dfa84f1\"",
+			"fetched": 1749282698991
+		}
+	},
+	"_distfiles": {
+		"slidev-theme-neversink-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.0.tgz",
+			"sha": "2ad621abcb0f8dad2ffa9bdae74e36cd0e25b0dd",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.1.tgz",
+			"sha": "85448ad3eb3089060a496bf1c34540aef1878321",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.2.tgz",
+			"sha": "fb59db306a121038549c54683800d2678fca0aae",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.0.3.tgz",
+			"sha": "569c67eb3f2b3006c6385fdc8f529e8f014c02f9",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.1.0.tgz",
+			"sha": "9917ac14ceae08921436e983db7bde9cbd348b13",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.1.1.tgz",
+			"sha": "3ee7c3c367705d97c7efd7f9fb1ebac944ea9489",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.2.0.tgz",
+			"sha": "a65d49c7f69608ba4825a36d59441c2e32413340",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.0.tgz",
+			"sha": "96bac73f28d41d9717d99ac1aeeaf2ff80d92f75",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.1.tgz",
+			"sha": "5480a6271dd70678df929b5c6721ff2a91c8075a",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.2.tgz",
+			"sha": "5066e781bd778654a1f46b177c12a1376fc3ba73",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.3.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.3.tgz",
+			"sha": "abfef02ef9eaa2a57f24566ab4c0f1fb33335586",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.4.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.4.tgz",
+			"sha": "76210f04c763f03bc9911777c5a749bc8ae3a725",
+			"registry": "npmjs"
+		},
+		"slidev-theme-neversink-0.3.6.tgz": {
+			"url": "https://registry.npmjs.org/slidev-theme-neversink/-/slidev-theme-neversink-0.3.6.tgz",
+			"sha": "91d9913bed3b55f73458761568bb02544c389874",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-ab4f5b74a84c5191",
+	"_id": "slidev-theme-neversink",
+	"readme": "# Slidev Theme Neversink\n\nAn education/academia oriented Slidev theme with some whimsical elements.\n\nExample [slides](https://gureckis.github.io/slidev-theme-neversink/example/).\nDocumentation [here](https://gureckis.github.io/slidev-theme-neversink/)\nRead about [Slidev](https://sli.dev/).\n\n## Installation\n\n```bash\nnpm install slidev-theme-neversink\n```\n\n## Usage\n\nAdd the theme to the frontmatter of your first slide in `slides.md`:\n\n```md\n---\ntheme: neversink\n---\n```\n\n## Features\n\n- [Color schemes](colors.md) - the color schemes available in Neversink\n- [Custom layouts](layouts.md) - the custom slide layouts available in Neversink\n- [Branding](branding.md) - how to customize the theme to your brand/logos\n- [Components](components.md) - the custom components such as sticky notes and admonitions\n- [Markdown features](markdown.md) - special addons to the Slidev markdown syntax\n\n## Examples\n\n- Example [slides](https://gureckis.github.io/slidev-theme-neversink/example/)."
+}

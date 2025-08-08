@@ -1,0 +1,25 @@
+name: ssidl-auth-node
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.3.1
+    container_name: ssidl-keycloak
+    ports:
+      - "8080:8080"
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: ssidl-postgres
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: ssidl
+      KC_DB_PASSWORD: 551dl(Postgres!)
+      KC_HOSTNAME: localhost
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: 551dl(Keycloack!)
+    command:
+      - start-dev
+    networks:
+      - ssidl-network
+
+networks:
+  ssidl-network:
+    external: true

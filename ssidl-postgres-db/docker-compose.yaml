@@ -1,0 +1,20 @@
+name: ssidl-postgres-db
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: ssidl-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ssidl
+      POSTGRES_PASSWORD: 551dl(Postgres!)
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - ssidl-network
+
+networks:
+  ssidl-network:
+    external: true

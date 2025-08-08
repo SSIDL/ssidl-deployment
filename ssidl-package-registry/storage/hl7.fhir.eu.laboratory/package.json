@@ -1,0 +1,69 @@
+{
+	"name": "hl7.fhir.eu.laboratory",
+	"versions": {
+		"0.1.0": {
+			"name": "hl7.fhir.eu.laboratory",
+			"version": "0.1.0",
+			"description": "None.",
+			"dist": {
+				"shasum": "3fd82615298de8714b99a40e4d250fc3e64d04cb",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0",
+			"contributors": []
+		},
+		"0.1.0-ballot": {
+			"name": "hl7.fhir.eu.laboratory",
+			"version": "0.1.0-ballot",
+			"description": "None.",
+			"dist": {
+				"shasum": "6084bb4f64915583e13f3b6eb11982a97a7da3e1",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0-ballot"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0-ballot",
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "hl7.fhir.eu.laboratory",
+			"version": "0.1.1",
+			"description": "None.",
+			"dist": {
+				"shasum": "88302a65a152e1b32729aabfcc1c1b9542adff5b",
+				"tarball": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.1"
+			},
+			"fhirVersion": "R4",
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.1",
+			"contributors": []
+		}
+	},
+	"time": {},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1754225728238
+		}
+	},
+	"_distfiles": {
+		"0.1.0": {
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0",
+			"sha": "3fd82615298de8714b99a40e4d250fc3e64d04cb"
+		},
+		"0.1.0-ballot": {
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.0-ballot",
+			"sha": "6084bb4f64915583e13f3b6eb11982a97a7da3e1"
+		},
+		"0.1.1": {
+			"url": "https://packages.simplifier.net/hl7.fhir.eu.laboratory/0.1.1",
+			"sha": "88302a65a152e1b32729aabfcc1c1b9542adff5b"
+		}
+	},
+	"_attachments": {},
+	"_rev": "2-866460192df799db",
+	"_id": "hl7.fhir.eu.laboratory",
+	"readme": ""
+}

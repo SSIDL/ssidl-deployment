@@ -1,0 +1,26 @@
+name: ssidl-prototype
+
+include:
+  - path: ../ssidl-proxy/docker-compose.yaml
+  - path: ../ssidl-package-registry/docker-compose.yaml
+
+services:
+  terminology-service:
+    image: sbojanowski/ssidl-terminology-service:latest
+    container_name: ssidl-terminology-service
+    restart: always
+    ports:
+      - "8080:8080"
+    #volumes:
+    #  - ./config/terminology-service-application.yaml:/config/application.yaml:ro
+    environment:
+      - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://ssidl-nginx/registry
+    depends_on:
+      - nginx     
+      - verdaccio
+    networks:
+      - ssidl-network
+
+networks:
+  ssidl-network:
+    external: true
