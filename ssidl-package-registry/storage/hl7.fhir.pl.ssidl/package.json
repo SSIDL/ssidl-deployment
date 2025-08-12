@@ -6,11 +6,13 @@
 			"version": "0.1.0",
 			"tools-version": 3,
 			"type": "IG",
-			"date": "20250804155801",
+			"date": "20250811013044",
 			"license": "CC0-1.0",
-			"canonical": "http://hl7.org.pl/fhir/ig/ssidl",
+			"canonical": "http://loinc-ssidl.umed.pl/fhir/ig/ssidl",
 			"notForPublication": true,
 			"url": "file:///Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HITInn.SsidlPrototype/ssidl-ig/output",
+			"title": "Specyfikacja interoperacyjności prototypu SSIDL",
+			"description": "Specyfikacja interoperacyjności dla prototypu Systemu Stnadaryzacji w Diagnostyce Laboratoryjnej (SSIDL) (built Mon, Aug 11, 2025 01:30+0200+02:00)",
 			"fhirVersions": [
 				"5.0.0"
 			],
@@ -20,12 +22,12 @@
 				"hl7.fhir.pl.base.r5": "0.1.0"
 			},
 			"author": {
-				"name": "HITInn Sp. z o.o."
+				"name": "UMed"
 			},
 			"maintainers": [
 				{
-					"name": "HITInn Sp. z o.o.",
-					"url": "http://iehr.eu"
+					"name": "UMed",
+					"url": "http://umed.pl"
 				}
 			],
 			"directories": {
@@ -33,23 +35,23 @@
 				"example": "example"
 			},
 			"_id": "hl7.fhir.pl.ssidl@0.1.0",
-			"_integrity": "sha512-h04GAxRT+9BAnBwzbX7fJJ+4HuBthlT1oYHNZJjx20TxQQSMacscMd0UrJTbTiQhaeBIUfZqtYbHuYoU2UU1Yw==",
+			"_integrity": "sha512-05SS0ILTcDGTApSdmsSejdQzWWtbCfbHztADy66FxRHMg9WwCdpy1FDfRT0kEzIoF2lvhYu/+YCfUQ9y9AXBDA==",
 			"_resolved": "/Users/sebastian/Library/CloudStorage/Dropbox/Workspace/HITInn.SsidlPrototype/ssidl-ig/output/package.tgz",
 			"_from": "file:package.tgz",
 			"_nodeVersion": "22.13.1",
 			"_npmVersion": "11.5.2",
 			"dist": {
-				"integrity": "sha512-h04GAxRT+9BAnBwzbX7fJJ+4HuBthlT1oYHNZJjx20TxQQSMacscMd0UrJTbTiQhaeBIUfZqtYbHuYoU2UU1Yw==",
-				"shasum": "4cf7d73e2bcca23c3b2cb45a259914dd42b8a95e",
+				"integrity": "sha512-05SS0ILTcDGTApSdmsSejdQzWWtbCfbHztADy66FxRHMg9WwCdpy1FDfRT0kEzIoF2lvhYu/+YCfUQ9y9AXBDA==",
+				"shasum": "ff2d37c77700f5949dc223c008a3c4416048a24b",
 				"tarball": "http://localhost:4873/hl7.fhir.pl.ssidl/-/hl7.fhir.pl.ssidl-0.1.0.tgz"
 			},
 			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2025-08-04T14:05:23.382Z",
-		"created": "2025-08-04T14:05:23.382Z",
-		"0.1.0": "2025-08-04T14:05:23.382Z"
+		"modified": "2025-08-11T03:53:51.349Z",
+		"created": "2025-08-11T03:53:51.349Z",
+		"0.1.0": "2025-08-11T03:53:51.349Z"
 	},
 	"users": {},
 	"dist-tags": {
@@ -59,11 +61,11 @@
 	"_distfiles": {},
 	"_attachments": {
 		"hl7.fhir.pl.ssidl-0.1.0.tgz": {
-			"shasum": "4cf7d73e2bcca23c3b2cb45a259914dd42b8a95e",
+			"shasum": "ff2d37c77700f5949dc223c008a3c4416048a24b",
 			"version": "0.1.0"
 		}
 	},
-	"_rev": "3-c7a288eee4d98161",
+	"_rev": "3-ab8175c3ed4ebc2d",
 	"_id": "hl7.fhir.pl.ssidl",
 	"readme": "ERROR: No README data found!"
 }

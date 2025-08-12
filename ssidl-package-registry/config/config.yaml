@@ -24,10 +24,6 @@ packages:
 middlewares:
   audit:
     enabled: true
-  compression:
-    enabled: true
-    threshold: 1024
-    level: 6
 
 logs:
   - {type: stdout, format: pretty, level: http}
