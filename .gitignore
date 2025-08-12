@@ -1,2 +1,3 @@
 /.DS_Store
-/ssidl-postgres-db/data
+/ssidl-postgres-db/data/*
+/ssidl-proxy/logs/*
