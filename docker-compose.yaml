@@ -1,8 +1,8 @@
 name: ssidl-prototype
 
 include:
-  - path: ../ssidl-proxy/docker-compose.yaml
-  - path: ../ssidl-package-registry/docker-compose.yaml
+  - path: ./ssidl-proxy/docker-compose.yaml
+  - path: ./ssidl-package-registry/docker-compose.yaml
 
 services:
   terminology-service:
