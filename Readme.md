@@ -1,6 +1,6 @@
 # Instrukcja instalacji prototypu SSIDL-LOINC
 
-## Instalacja środowiska wdrożenia prototypy SSIDL-LOINC w systemie Rocky Linux 9
+## Instalacja środowiska wdrożenia prototypu SSIDL-LOINC w systemie Rocky Linux 9
 
 ### Wstępne przygotowanie systemu Rocky Linux
 
@@ -156,13 +156,13 @@ Uruchmienie wiersza poleceń serwera bazodanowego:
 sudo -u postgres psql
 ```
 
-Utworzenie uzytkownika dla usłygi Keycloak:
+Utworzenie uzytkownika dla usłygi Keycloak przy pomocy komendy SQL:
 
 ```sql
 CREATE USER keycloak WITH PASSWORD '551dl(Keycloack!)';
 ```
 
-Utworzenie bazy danych dla usługi Keycloak:
+Utworzenie bazy danych dla usługi Keycloak przy pomocy komendy SQL:
 
 ```sql
 CREATE DATABASE keycloak OWNER keycloak;
@@ -182,13 +182,13 @@ Uruchmienie wiersza poleceń serwera bazodanowego:
 sudo -u postgres psql
 ```
 
-Utworzenie uzytkownika dla usłygi Keycloak:
+Utworzenie użytkownika dla usłygi Keycloak przy pomocy komentdy SQL:
 
 ```sql
 CREATE USER ssidl WITH PASSWORD '551dl(Prototype!)';
 ```
 
-Utworzenie bazy danych dla usługi Katalog usług SSIDL:
+Utworzenie bazy danych dla usługi Katalog usług SSIDL przy pomocy komendy SQL:
 
 ```sql
 CREATE DATABASE service_catalog OWNER ssidl;
@@ -202,7 +202,80 @@ exit
 
 ### Przygotowanie obrazu kontenera Docker dla komponentu Serwer terminologii SSIDL
 
+Pobranie repozytorium z kodem źródłowym komponentu Serwer terminologii SSIDL:
+
+```bash
+sudo git clone https://github.com/SSIDL/ssidl-terminology-service.git
+```
+
+Zmiana uprawnień dla utworzonego katalogu z kodem źródłowym komponentu:
+
+```bash
+sudo chown -R $USER:$USER /opt/ssidl-terminology-service
+```
+
+Wejście do katalogu z kodem źródłowym komponentu:
+
+```bash
+cd /opt/ssidl-terminology-service
+```
+
+Kompilacja i przygotowanie pakietu aplikacji komponentu Serwer terminologii:
+
+```bash
+mvn clean package -DSkipTests
+```
+
+Utworzenie obrazu kontenera Docker dla komponentu Serwer terminologii SSIDL:
+
+```bash
+sudo docker build -t ssidl/terminology-service .
+```
+
+Aktualizacja obrazu kontenera w repozytorium Docker Hub:
+
+```bash
+sudo docker push ssidl/terminology-service
+```
+
 ### Przygotowanie obrazu kontenera Docker dla komponentu Katalog usług SSIDL
+
+Pobranie repozytorium z kodem źródłowym komponentu Serwer terminologii SSIDL:
+
+```bash
+sudo git clone https://github.com/SSIDL/ssidl-catalog-service.git
+```
+
+Zmiana uprawnień dla utworzonego katalogu z kodem źródłowym komponentu:
+
+```bash
+sudo chown -R $USER:$USER /opt/ssidl-catalog-service
+```
+
+Wejście do katalogu z kodem źródłowym komponentu:
+
+```bash
+cd /opt/ssidl-catalog-service
+```
+
+Kompilacja i przygotowanie pakietu aplikacji komponentu Serwer terminologii:
+
+```bash
+mvn clean package -DSkipTests
+```
+
+Utworzenie obrazu kontenera Docker dla komponentu Serwer terminologii SSIDL:
+
+```bash
+sudo docker build -t ssidl/catalog-service .
+```
+
+Aktualizacja obrazu kontenera w repozytorium Docker Hub:
+
+```bash
+sudo docker push ssidl/catalog-service  
+```
+
 
 ### Uruchomienie usług prototypu SSIDL
 
@@ -230,7 +303,43 @@ Wejście do katalogu z plikami konfiguracyjnymi:
 cd /opt/ssidl-deployment
 ```
 
+Utworzenie wspólnej wirtualnej sieci Docker dla wszystkich usług prototypu SSIDL:
+
+```bash
+docker network create ssidl-network
+```
+
 Uruchomienie konfiguracji Docker dla prototypu SSIDL:
 
 ```bash
 docker compose up -d
+```
+
+### Dodawanie specyfikacyjnych i terminologicznych pakietów NPM do repozytorium pakietów prototypu SSIDL
+
+> Repozytorium pakietów dostępne jest pod adresem URL: `http://[host]:4873`, gdzie `host` to adres URL serwera testowego lub produkcyjnego.
+
+Publikacja pakietu NPM:
+
+```bash
+npm publish [package].tgz --registry http://[host]]:4873
+```
+
+gdzie:
+- package - nazwa pliku zawierającego zawartość pakietu NPM w formacie `.tgz`
+- host - adres URL serwera testowego lub produkcyjnego
+
+### Usuwanie pakietów z repozytoium prototypu SSIDL
+
+> Repozytorium pakietów dostępne jest pod adresem URL: `http://[host]:4873`, gdzie `host` to adres URL serwera testowego lub produkcyjnego.
+
+Usunięcie pakietu NPM:
+
+```bash
+npm unpublish [package]@[version] --registry http://[host]:4873
+```
+
+gdzie:
+- package - nazwa pakietu NPM do usunięcia
+- version - wersja pakietu NPM do usunięcia
+- host - adres URL serwera testowego lub produkcyjnego
