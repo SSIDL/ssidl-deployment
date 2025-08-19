@@ -13,7 +13,7 @@ services:
       - "8091:8091"
     environment:
       - SERVER_PORT=8091
-      - HAPI_FHIR_SERVER_ADDRESS=http://10.255.12.101:8091/fhir/
+      - HAPI_FHIR_SERVERADDRESS=http://10.255.12.101:8091/fhir/
       - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://nginx/registry/
     depends_on:
       - nginx     
@@ -28,7 +28,7 @@ services:
       - "8092:8092"
     environment:
       - SERVER_PORT=8092
-      - HAPI_FHIR_SERVER_ADDRESS=http://10.255.12.101:8092/fhir/
+      - HAPI_FHIR_SERVERADDRESS=http://10.255.12.101:8092/fhir/
       - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://nginx/registry/
       - HAPI_FHIR_VALIDATION_REQUESTSENABLE=false
       - HAPI_FHIR_VALIDATION_RESPONSESENABLE=false
