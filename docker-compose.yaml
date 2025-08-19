@@ -30,12 +30,14 @@ services:
       - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://nginx/registry/
       - HAPI_FHIR_VALIDATION_REQUESTSENABLE=false
       - HAPI_FHIR_VALIDATION_RESPONSESENABLE=false
-      - SPRING_DATASOURCE_PERSISTANCE_STORE_URL=jdbc:postgresql://10.255.12.101:5432/catalog_service
+      - SPRING_DATASOURCE_PERSISTANCE_STORE_URL=jdbc:postgresql://host.docker.internal:5432/catalog_service
     depends_on:
       - nginx     
       - verdaccio
     networks:
       - ssidl-network
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
 
 networks:
   ssidl-network:
