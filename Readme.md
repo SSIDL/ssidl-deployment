@@ -165,7 +165,7 @@ CREATE USER keycloak WITH PASSWORD '551dl(Keycloack!)';
 Utworzenie bazy danych dla usługi Keycloak przy pomocy komendy SQL:
 
 ```sql
-CREATE DATABASE keycloak OWNER keycloak;
+CREATE DATABASE ssidl_keycloak OWNER keycloak;
 ```
 
 Wyjście z wiersza poleceń serwera bazodanowego:
@@ -191,7 +191,7 @@ CREATE USER ssidl WITH PASSWORD '551dl(Prototype!)';
 Utworzenie bazy danych dla usługi Katalog usług SSIDL przy pomocy komendy SQL:
 
 ```sql
-CREATE DATABASE service_catalog OWNER ssidl;
+CREATE DATABASE ssidl_service_catalog OWNER ssidl;
 ```
 
 Wyjście z wiersza poleceń serwera bazodanowego:

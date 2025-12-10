@@ -1,7 +1,7 @@
 name: ssidl-prototype
 
 include:
-  - path: ./ssidl-proxy-prod/docker-compose.yaml
+  - path: ./ssidl-proxy-test/docker-compose.yaml
   - path: ./ssidl-package-registry/docker-compose.yaml
   - path: ./ssidl-auth-node/docker-compose.yaml
 
@@ -14,8 +14,7 @@ services:
       - "8091:8091"
     environment:
       - SERVER_PORT=8091
-      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://keycloak:8080/realms/ssidl
-      - HAPI_FHIR_SERVERADDRESS=http://10.255.12.101:8091/fhir/
+      - HAPI_FHIR_SERVERADDRESS=http://apps.tukan.online:8091/fhir/
       - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://nginx/registry/
     depends_on:
       - nginx     
@@ -33,12 +32,11 @@ services:
       - "8092:8092"
     environment:
       - SERVER_PORT=8092
-      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://keycloak:8080/realms/ssidl
-      - HAPI_FHIR_SERVERADDRESS=http://10.255.12.101:8092/fhir/
+      - HAPI_FHIR_SERVERADDRESS=http://apps.tukan.online:8092/fhir/
       - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://nginx/registry/
       - HAPI_FHIR_VALIDATION_REQUESTSENABLE=false
       - HAPI_FHIR_VALIDATION_RESPONSESENABLE=false
-      - SPRING_DATASOURCE_PERSISTANCE_STORE_URL=jdbc:postgresql://host.docker.internal:5432/ssidl_catalog_service
+      - SPRING_DATASOURCE_PERSISTANCE_STORE_URL=jdbc:postgresql://apps.tukan.online:5432/ssidl_catalog_service
     depends_on:
       - nginx     
       - verdaccio

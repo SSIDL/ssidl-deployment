@@ -8,8 +8,8 @@ services:
       - "8080:8080"
     environment:
       KC_DB: postgres
-      KC_DB_URL_HOST: ssidl-postgres
-      KC_DB_URL_DATABASE: keycloak
+      KC_DB_URL_HOST: host.docker.internal
+      KC_DB_URL_DATABASE: ssidl_keycloak
       KC_DB_USERNAME: ssidl
       KC_DB_PASSWORD: 551dl(Postgres!)
       KC_HOSTNAME: localhost
@@ -19,6 +19,8 @@ services:
       - start-dev
     networks:
       - ssidl-network
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
 
 networks:
   ssidl-network:

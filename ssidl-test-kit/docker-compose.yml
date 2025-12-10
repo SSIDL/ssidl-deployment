@@ -1,4 +1,5 @@
-version: '3'
+name: ssidl-test-kit
+
 services:
   hl7_validator_service:
     image: infernocommunity/inferno-resource-validator
@@ -8,17 +9,6 @@ services:
       - ./data/igs:/app/igs
     networks:
       - ssidl-network
-
-  # nginx:
-  #   image: nginx
-  #   volumes:
-  #     - ./config/nginx.conf:/etc/nginx/nginx.conf
-  #   ports:
-  #     - "80:80"
-  #   command: [nginx, '-g', 'daemon off;']
-  #   depends_on:
-  #     - hl7_validator_service
-
   redis:
     image: redis
     ports:

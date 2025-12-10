@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: ssidl
       POSTGRES_PASSWORD: 551dl(Postgres!)
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - ../../ssidl-postgres-data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     networks:
