@@ -1,0 +1,83 @@
+version: "3.6"
+services:
+
+  terminology-service:
+    image: "sbojanowski/ssidl-terminology-service:latest"
+    environment:
+      - SERVER_PORT=8091
+      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://apps.tukan.online:8082/realms/ssidl
+      - HAPI_FHIR_SERVERADDRESS=http://apps.tukan.online:8091/fhir/
+      - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://apps.tukan.online:8081/registry/
+    networks:
+      - ssidl-network
+    ports:
+      - "8091:8091"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    deploy:
+      replicas: 1
+
+  catalog-service:
+    image: "sbojanowski/ssidl-catalog-service:latest"
+    environment:
+      - SERVER_PORT=8092
+      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://apps.tukan.online:8082/realms/ssidl
+      - HAPI_FHIR_SERVERADDRESS=http://apps.tukan.online:8092/fhir/
+      - HAPI_FHIR_PACKAGES_PRIMARYREGISTRYURL=http://apps.tukan.online:8081/registry/
+      - HAPI_FHIR_VALIDATION_REQUESTSENABLE=false
+      - HAPI_FHIR_VALIDATION_RESPONSESENABLE=false
+      - SPRING_DATASOURCE_PERSISTANCE_STORE_URL=jdbc:postgresql://apps.tukan.online:5432/ssidl_catalog_service
+    networks:
+      - ssidl-network
+    ports:
+      - "8092:8092"
+    deploy:
+      replicas: 1
+      
+  nginx:
+    image: "nginx:stable"
+    networks:
+      - ssidl-network
+    ports:
+      - "8081:80"
+    volumes:
+      - ./ssidl-proxy-prod/config/nginx-prod.conf:/etc/nginx/nginx.conf:ro  
+      - ./ssidl-proxy-prod/logs:/var/log/nginx   
+    deploy:
+      replicas: 1
+
+  keycloak:
+    image: "quay.io/keycloak/keycloak:26.3.1"
+    networks:
+      - ssidl-network
+    ports:
+      - "8082:8080"  
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: apps.tukan.online
+      KC_DB_URL_DATABASE: ssidl_keycloak
+      KC_DB_USERNAME: ssidl
+      KC_DB_PASSWORD: 551dl(Postgres!)
+      KC_HOSTNAME: apps.tukan.online
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: 551dl(Keycloak!)
+    command:
+      - start-dev
+    deploy:
+      replicas: 1
+      
+  verdaccio:
+    image: "verdaccio/verdaccio:latest"
+    networks:
+      - ssidl-network
+    ports:
+      - "4873:4873"
+    volumes:
+      - ./ssidl-package-registry/storage:/verdaccio/storage
+      - ./ssidl-package-registry/config:/verdaccio/conf
+    deploy:
+      replicas: 1
+      
+networks:
+  ssidl-network:
+    external: true
